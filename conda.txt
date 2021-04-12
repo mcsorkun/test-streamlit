@@ -1,1 +1,1 @@
-rdkit=2019.09.3
+rdkit conda=4.9.2 
