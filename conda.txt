@@ -1,1 +1,1 @@
-rdkit conda=4.9.2 
+rdkit
