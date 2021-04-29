@@ -1,9 +1,15 @@
+name: aqsolpred
 channels:
-  - conda-forge
+- rdkit
+- conda-forge
+- defaults
 dependencies:
-  - libgcc=5.2.0
-  - rdkit
-  - mordred==1.2.0
-  - numpy==1.18.1
-  - scikit-learn==0.22.2.post1
-  - xgboost==1.0.2
+    - libgcc=5.2.0
+    - rdkit      
+    - pip:
+        - pandas==1.0.1
+        - numpy==1.18.1
+        - scikit-learn==0.22.2.post1
+        - mordred
+        - xgboost==1.0.2
+        - streamlit==0.69.2
